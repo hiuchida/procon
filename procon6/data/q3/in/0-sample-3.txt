@@ -1,0 +1,9 @@
+5
+a b c d e
+3
+Hoge Fuga Piyo
+2
+(^o^) (^m^)
+5
+aaadb
+HogeHogeHogeFugaPiyo
