@@ -1,0 +1,14 @@
+13
+     A*%%TS  SD  20171121  133000  PGCON       REL-V5R4M0  5722-WDS             
+     A                                      DSPSIZ(24 80)                       
+     A                                  1  2'MAPD0001'                          
+     A                                  1 70'YYYY/MM/DD'                        
+     A                                  2 72'hh:mm:ss'                          
+     A                                  1 32'CUSTOMER SEARCH'                   
+     A                                  4  4'CODE:'                             
+     A                                  5  4'NAME:'                             
+     A                                  6  4'ADDRESS:'                          
+     A            FIELD1         6      4 13DSPATR(CS)                          
+     A            FIELD2        40      5 13DSPATR(UL)                          
+     A            FIELD3        40      6 13DSPATR(UL)                          
+     A                                 24  2'F1=Help    F3=Exit'                

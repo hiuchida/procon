@@ -1,0 +1,5 @@
+000000001 strawberry 210
+000000002 strawberry 110
+000000003 strawberry 210
+000000004 Chinese 130
+000000005 strawberry 210

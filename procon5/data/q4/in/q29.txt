@@ -1,0 +1,12 @@
+6
+I 000000012 pineapple 210
+I 000000012 strawberry 310
+I 000000012 strawberry 410
+I 000000022 pineapple 210
+I 000000022 strawberry 310
+I 000000022 strawberry 410
+000000001 apricot 100
+000000002 strawberry 110
+000000003 persimmon 120
+000000004 Chinese 130
+000000005 kumquat 140

@@ -1,0 +1,2 @@
+every|15,every day|10,everybody|20,day|10,body|5
+Nowadays everybody knows what an emoji is and they are used every day.

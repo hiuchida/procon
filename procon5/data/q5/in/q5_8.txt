@@ -1,0 +1,2 @@
+a|1,a b|3,b|1,b c|3,a b b c|4,c|1,d|1,e|1
+a a b b c c d d e e

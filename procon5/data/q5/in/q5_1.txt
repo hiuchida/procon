@@ -1,0 +1,2 @@
+apple|5,pineapple|10
+I like apple, but I like pineapple better.

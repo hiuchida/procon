@@ -1,0 +1,29 @@
+28
+     A*%%TS  SD  20171121  133000  PGCON       REL-V5R4M0  5722-WDS             
+     A*                                 1  2'MAPD0001'                          
+     A*                                 1 70'2017/11/21'                        
+     A*                                 2 72'13:30:00'                          
+     A            FIELD01       80      1  1DSPATR(UL)                          
+     A            FIELD02       80      2  1DSPATR(CS)                          
+     A            FIELD03       80      3  1DSPATR(UL)                          
+     A            FIELD04       80      4  1DSPATR(CS)                          
+     A            FIELD05       80      5  1DSPATR(UL)                          
+     A            FIELD06       80      6  1DSPATR(CS)                          
+     A            FIELD07       80      7  1DSPATR(UL)                          
+     A            FIELD08       80      8  1DSPATR(CS)                          
+     A            FIELD09       80      9  1DSPATR(UL)                          
+     A            FIELD10       80     10  1DSPATR(CS)                          
+     A            FIELD11       80     11  1DSPATR(UL)                          
+     A            FIELD12       80     12  1DSPATR(CS)                          
+     A            FIELD13       80     13  1DSPATR(UL)                          
+     A            FIELD14       80     14  1DSPATR(CS)                          
+     A            FIELD15       80     15  1DSPATR(UL)                          
+     A            FIELD16       80     16  1DSPATR(CS)                          
+     A            FIELD17       80     17  1DSPATR(UL)                          
+     A            FIELD18       80     18  1DSPATR(CS)                          
+     A            FIELD19       80     19  1DSPATR(UL)                          
+     A            FIELD20       80     20  1DSPATR(CS)                          
+     A            FIELD21       80     21  1DSPATR(UL)                          
+     A            FIELD22       80     22  1DSPATR(CS)                          
+     A            FIELD23       80     23  1DSPATR(UL)                          
+     A            FIELD24       80     24  1DSPATR(CS)                          
