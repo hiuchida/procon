@@ -1,0 +1,65 @@
+        ; Sample-11 Counting for "AB"
+        ; Sample-2 + Sample-3 + Sample-4
+        ;
+        ; from Sample-2
+        ; regA: tmp
+        ; regB: address
+        ; regC: counter
+        ; regD: max counter 63
+        ; regE: const 0='A'
+        ; regF: const 1='B'
+		MOV B,0
+        MOV C,0
+        MOV D,63
+        MOV E,0
+        MOV F,1
+; loop1
+        MOV A,(B)
+        INC B
+        CMP A,E
+        JNZ $+5
+        MOV A,(B)
+        CMP A,F
+        JNZ $+2
+        INC C
+; endif
+        CMP B,D
+        JNZ $-11
+        ;MOV (B),C
+        ;
+        ; from Sample-3
+        ; regA: const 52='0'
+        ; regB: address
+        ; regC: counter (from Sample-2 to Sample-4)
+        MOV A,52
+        MOV B,0
+; loop1
+        MOV (B),A
+        INC B
+        JNZ $-3
+        ;
+        ; from Sample-4
+        ; regA: tmp
+        ; regB: address
+        ; regC: counter (from Sample-2)
+        ; regD: counter / 10
+        ; regE: const 10
+        ;MOV C,32
+        MOV B,62
+        MOV D,0
+        MOV E,10
+; loop1
+        SUB C,E
+        JPC $+3
+        INC D
+        JMP $-4
+; endif
+        ADD C,E
+        MOV A,(B)
+        ADD A,D
+        MOV (B),A
+        INC B
+        MOV A,(B)
+        ADD A,C
+        MOV (B),A
+        HLT

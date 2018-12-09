@@ -1,0 +1,10 @@
+        ; Sample-24 Echo
+loop1:
+        INP A
+        MOV B,63
+        CMP A,B
+        JPZ $endif1
+        OUTP A
+        JMP $loop1
+endif1:
+        HLT
