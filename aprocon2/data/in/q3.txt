@@ -1,0 +1,31 @@
+# comment
+st 12
+xx 1 2
+sg 0
+sg 1
+sg 2
+sg 3
+sg 4
+ss 0 0
+ss 1 1
+ss 2 2
+ss 3 3
+ss 4 4
+sg 0
+sg 1
+sg 2
+sg 3
+sg 4
+ms 0 9 98
+mg 0 24
+ms 10 19 99
+mg 0 24
+mr 8 11
+mg 0 24
+sr 16
+mg 0 24
+ss 16 99
+mg 0 24
+ms 8 11 98
+mg 0 24
+ed

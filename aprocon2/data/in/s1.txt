@@ -1,0 +1,20 @@
+# sample - 10^7
+st 7
+# param1 error (len>7)
+ss 12345678 12
+# param2 error (len>2)
+ss 123 123
+# param2 error (len<1)
+ss 123
+# param1&2 error
+ss 12345678 123
+ss
+# success
+ss 0000000 00
+ss 9999999 99
+ms 9999998 1 55
+sr 9999997
+mg 0 19
+mg 9999999 0
+mg 9999980 9999999
+ed
