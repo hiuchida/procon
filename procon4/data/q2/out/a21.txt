@@ -1,0 +1,10 @@
+VX 9
+CM 8
+HK 8
+QU 8
+UJ 8
+YL 8
+BM 7
+GI 7
+MS 7
+OI 7

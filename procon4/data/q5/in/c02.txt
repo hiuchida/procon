@@ -1,0 +1,28 @@
+ABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABABAB
+26
+; Sample-2 Counting for "AB"
+; regA: tmp
+; regB: address
+; regC: counter
+; regD: max counter 63
+; regE: const 0='A'
+; regF: const 1='B'
+MOV B,0
+MOV C,0
+MOV D,63
+MOV E,0
+MOV F,1
+; loop1
+MOV A,(B)
+INC B
+CMP A,E
+JNZ $+5
+MOV A,(B)
+CMP A,F
+JNZ $+2
+INC C
+; endif
+CMP B,D
+JNZ $-11
+MOV (B),C
+HLT

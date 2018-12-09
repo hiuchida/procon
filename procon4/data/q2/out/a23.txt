@@ -1,0 +1,10 @@
+EH 8
+KP 8
+QP 8
+CT 7
+DO 7
+DZ 7
+FK 7
+GC 7
+GR 7
+HA 7

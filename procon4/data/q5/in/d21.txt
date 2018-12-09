@@ -1,0 +1,21 @@
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+19
+; Sample-21 Reverse
+; regA: tmp of left
+; regB: tmp of right
+; regC: max counter 31
+; regE: address of left
+; regF: address of right
+MOV C,31
+MOV E,0
+MOV F,63
+; loop1
+MOV A,(E)
+MOV B,(F)
+MOV (E),B
+MOV (F),A
+INC E
+DEC F
+CMP E,C
+JPC $-8
+HLT

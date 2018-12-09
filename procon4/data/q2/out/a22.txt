@@ -1,0 +1,10 @@
+UC 11
+UQ 9
+WV 9
+LW 8
+PU 8
+RB 8
+BZ 7
+CK 7
+JO 7
+KQ 7

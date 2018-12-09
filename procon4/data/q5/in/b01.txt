@@ -1,0 +1,6 @@
+S5kqDpdkcLFME4JgIRsOAf3yIw0K5eudXBxJb8svvjFI9ws9iVbndytMzm6nsxLn
+4
+; Test-Lv2-1
+MOV A,0
+MOV (A),A
+HLT

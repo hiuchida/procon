@@ -1,0 +1,67 @@
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+65
+; UnitTest-Lv3-2 DEC reg
+; reg=A range(57)
+MOV A,58
+DEC A
+MOV (A),A
+; reg=B range(56)
+MOV B,A
+DEC B
+MOV (B),B
+; reg=C range(55)
+MOV C,B
+DEC C
+MOV (C),C
+; reg=D range(54)
+MOV D,C
+DEC D
+MOV (D),D
+; reg=E range(53)
+MOV E,D
+DEC E
+MOV (E),E
+; reg=F range(52)
+MOV F,E
+DEC F
+MOV (F),F
+; reg=A overflow range(63)
+MOV A,0
+DEC A
+MOV (A),A
+; reg=B overflow range(62)
+MOV B,0
+DEC B
+DEC B
+MOV (B),B
+; reg=C overflow range(61)
+MOV C,0
+DEC C
+DEC C
+DEC C
+MOV (C),C
+; reg=D overflow range(60)
+MOV D,0
+DEC D
+DEC D
+DEC D
+DEC D
+MOV (D),D
+; reg=E overflow range(59)
+MOV E,0
+DEC E
+DEC E
+DEC E
+DEC E
+DEC E
+MOV (E),E
+; reg=F overflow range(58)
+MOV F,0
+DEC F
+DEC F
+DEC F
+DEC F
+DEC F
+DEC F
+MOV (F),F
+HLT

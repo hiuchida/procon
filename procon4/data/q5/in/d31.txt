@@ -1,0 +1,29 @@
+/+9876543210zyxwvutsrqponmlkjihfgedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+27
+; Sample-31 Sort
+; regA: tmp of left
+; regB: tmp of right
+; regC: max counter 63
+; regE: address of left
+; regF: address of right
+MOV C,63
+MOV E,0
+; loop1
+MOV A,(E)
+MOV F,E
+; loop2
+INC F
+MOV B,(F)
+CMP A,B
+JPC $+5
+JPZ $+4
+MOV (E),B
+MOV (F),A
+MOV A,B
+; endif
+CMP F,C
+JPC $-11
+INC E
+CMP E,C
+JPC $-17
+HLT

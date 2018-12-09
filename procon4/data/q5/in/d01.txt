@@ -1,0 +1,27 @@
+0000000000000000000000000000000000000000000000000000000000000000
+25
+; Sample-4 Write decimal
+; regA: tmp
+; regB: address
+; regC: counter
+; regD: counter / 10
+; regE: const 10
+MOV C,32
+MOV B,62
+MOV D,0
+MOV E,10
+; loop1
+SUB C,E
+JPC $+3
+INC D
+JMP $-4
+; endif
+ADD C,E
+MOV A,(B)
+ADD A,D
+MOV (B),A
+INC B
+MOV A,(B)
+ADD A,C
+MOV (B),A
+HLT

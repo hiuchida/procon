@@ -1,0 +1,67 @@
+BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+65
+; UnitTest-Lv3-1 INC reg
+; reg=A range(6)
+MOV A,5
+INC A
+MOV (A),A
+; reg=B range(7)
+MOV B,A
+INC B
+MOV (B),B
+; reg=C range(8)
+MOV C,B
+INC C
+MOV (C),C
+; reg=D range(9)
+MOV D,C
+INC D
+MOV (D),D
+; reg=E range(10)
+MOV E,D
+INC E
+MOV (E),E
+; reg=F range(11)
+MOV F,E
+INC F
+MOV (F),F
+; reg=A overflow range(0)
+MOV A,63
+INC A
+MOV (A),A
+; reg=B overflow range(1)
+MOV B,63
+INC B
+INC B
+MOV (B),B
+; reg=C overflow range(2)
+MOV C,63
+INC C
+INC C
+INC C
+MOV (C),C
+; reg=D overflow range(3)
+MOV D,63
+INC D
+INC D
+INC D
+INC D
+MOV (D),D
+; reg=E overflow range(4)
+MOV E,63
+INC E
+INC E
+INC E
+INC E
+INC E
+MOV (E),E
+; reg=F overflow range(5)
+MOV F,63
+INC F
+INC F
+INC F
+INC F
+INC F
+INC F
+MOV (F),F
+HLT

@@ -1,0 +1,10 @@
+VT 9
+YE 9
+BG 8
+PQ 8
+YX 8
+CW 7
+ED 7
+EO 7
+ES 7
+GY 7
