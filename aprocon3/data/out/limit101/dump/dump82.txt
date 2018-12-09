@@ -1,0 +1,5 @@
+name:GHIJKLM132
+maxCol:1
+maxRow:1
+flds[0]:C
+tbl[0][0]:C

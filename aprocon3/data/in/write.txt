@@ -1,0 +1,4 @@
+read master master.csv
+read master2 master2.csv
+write master write1.csv
+write master2 write2.csv

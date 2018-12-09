@@ -1,0 +1,26 @@
+read master master.csv
+select_row a1 master name $0 six
+select_row a2 master name $1 f
+select_row a3 master name $2 e
+select_row a4 master name $3 o
+select_row a5 master birthday $0 20180109
+select_row a6 master birthday $1 2018
+select_row a7 master birthday $2 09
+select_row a8 master birthday $3 03
+select_row a9 master name $0 Six
+select_row a10 master name $1 F
+select_row a11 master name $2 E
+select_row a12 master name $3 O
+write master master.csv
+write a1 a1.csv
+write a2 a2.csv
+write a3 a3.csv
+write a4 a4.csv
+write a5 a5.csv
+write a6 a6.csv
+write a7 a7.csv
+write a8 a8.csv
+write a9 a9.csv
+write a10 a10.csv
+write a11 a11.csv
+write a12 a12.csv

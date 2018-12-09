@@ -1,0 +1,13 @@
+name:a2
+maxCol:2
+maxRow:4
+flds[0]:max2
+flds[1]:country
+tbl[0][0]:
+tbl[0][1]:A
+tbl[1][0]:V.
+tbl[1][1]:B
+tbl[2][0]:G.
+tbl[2][1]:C
+tbl[3][0]:W.
+tbl[3][1]:D

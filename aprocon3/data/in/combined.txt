@@ -1,0 +1,26 @@
+read a master.csv
+append_col a1 a sep -
+substr a2 a1 year birthday 0 3
+substr a3 a2 month birthday 4 5
+substr a4 a3 day birthday 6 7
+concat1 a5 a4 yyyy year
+concat2 a6 a5 yyyy_ yyyy sep
+concat2 a7 a6 yyyy_mm yyyy_ month
+concat2 a8 a7 yyyy_mm_ yyyy_mm sep
+concat2 a9 a8 yyyy_mm_dd yyyy_mm_ day
+select_col b a9 name id year month day yyyy_mm_dd
+write b select_col.csv
+select_row jan b month $0 01
+write jan select_row1.csv
+count1 c1 b cnt1 day month
+write c1 count1.csv
+count2 c2 b cnt2 day year month
+write c2 count2.csv
+min1 m1 b min1 day month
+write m1 min1.csv
+min2 m2 b min2 day year month
+write m2 min2.csv
+max1 m3 b max1 day month
+write m3 max1.csv
+max2 m4 b max2 day year month
+write m4 max2.csv

@@ -1,0 +1,13 @@
+name:a12
+maxCol:1
+maxRow:9
+flds[0]:name
+tbl[0][0]:one
+tbl[1][0]:two
+tbl[2][0]:three
+tbl[3][0]:four
+tbl[4][0]:five
+tbl[5][0]:six
+tbl[6][0]:seven
+tbl[7][0]:eight
+tbl[8][0]:nine

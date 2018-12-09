@@ -1,0 +1,13 @@
+name:a11
+maxCol:1
+maxRow:9
+flds[0]:id
+tbl[0][0]:1
+tbl[1][0]:2
+tbl[2][0]:3
+tbl[3][0]:4
+tbl[4][0]:5
+tbl[5][0]:6
+tbl[6][0]:7
+tbl[7][0]:8
+tbl[8][0]:9

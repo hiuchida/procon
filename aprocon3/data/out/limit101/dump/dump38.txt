@@ -1,0 +1,5 @@
+name:qrstuvw138
+maxCol:1
+maxRow:1
+flds[0]:I
+tbl[0][0]:I

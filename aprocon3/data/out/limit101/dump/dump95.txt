@@ -1,0 +1,5 @@
+name:GHIJKLM145
+maxCol:1
+maxRow:1
+flds[0]:P
+tbl[0][0]:P

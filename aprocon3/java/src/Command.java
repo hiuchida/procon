@@ -1,0 +1,16 @@
+public enum Command {
+	READ,
+	WRITE,
+	APPEND_COL,
+	SUBSTR,
+	CONCAT1,
+	CONCAT2,
+	SELECT_COL,
+	SELECT_ROW,
+	COUNT1,
+	COUNT2,
+	MIN1,
+	MIN2,
+	MAX1,
+	MAX2,
+}

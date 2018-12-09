@@ -1,0 +1,5 @@
+name:2345678142
+maxCol:1
+maxRow:1
+flds[0]:M
+tbl[0][0]:M

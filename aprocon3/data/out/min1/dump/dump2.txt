@@ -1,0 +1,13 @@
+name:a1
+maxCol:2
+maxRow:4
+flds[0]:min1
+flds[1]:country
+tbl[0][0]:George
+tbl[0][1]:A
+tbl[1][0]:Abraham
+tbl[1][1]:B
+tbl[2][0]:Benjamin
+tbl[2][1]:C
+tbl[3][0]:Barack
+tbl[3][1]:D

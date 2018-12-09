@@ -1,0 +1,5 @@
+name:9:;<=>?143
+maxCol:1
+maxRow:1
+flds[0]:N
+tbl[0][0]:N

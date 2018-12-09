@@ -1,0 +1,10 @@
+read master2 master2.csv
+count2 a1 master2 cnt1 firstname country birthyear
+count2 a2 master2 cnt2 middlename country birthyear
+count2 a3 master2 cnt3 firstname birthyear country
+count2 a4 master2 cnt4 middlename birthyear country
+write master2 master2.csv
+write a1 a1.csv
+write a2 a2.csv
+write a3 a3.csv
+write a4 a4.csv

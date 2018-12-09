@@ -1,0 +1,12 @@
+name:a10
+maxCol:3
+maxRow:2
+flds[0]:id
+flds[1]:name
+flds[2]:birthday
+tbl[0][0]:1
+tbl[0][1]:one
+tbl[0][2]:20180131
+tbl[1][0]:3
+tbl[1][1]:three
+tbl[1][2]:20180331

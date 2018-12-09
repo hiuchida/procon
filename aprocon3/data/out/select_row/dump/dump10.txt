@@ -1,0 +1,6 @@
+name:a9
+maxCol:3
+maxRow:0
+flds[0]:id
+flds[1]:name
+flds[2]:birthday

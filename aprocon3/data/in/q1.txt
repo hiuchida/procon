@@ -1,0 +1,49 @@
+# read/write sample
+read t1 master.csv
+read t2 number.csv
+write t1 read1.csv
+write t2 read2.csv
+# append_col sample
+append_col a1 t1 str abc123
+write a1 append_col.csv
+# substr sample
+substr a2 t1 year birthday 0 3
+substr a3 a2 month birthday 4 5
+substr a4 a3 day birthday 6 7
+write a4 substr.csv
+# concat1 sample
+concat1 a5 t1 name2 name
+write a5 concat1.csv
+# concat2 sample
+concat2 a6 t1 keystr id name
+write a6 concat2.csv
+# select_col sample
+select_col a7 t1 name id
+write a7 select_col.csv
+# select_row sample
+select_row a8 t1 name $0 three
+select_row a9 t1 birthday $1 2018
+select_row a10 t1 birthday $2 31
+select_row a11 t1 birthday $3 02
+write a8 select_row0.csv
+write a9 select_row1.csv
+write a10 select_row2.csv
+write a11 select_row3.csv
+# count1 sample
+count1 a12 t2 cnt1 id x
+write a12 count1.csv
+# count2 sample
+count2 a13 t2 cnt2 id x y
+write a13 count2.csv
+# min1 sample
+min1 a14 t2 min1 id x
+write a14 min1.csv
+# min2 sample
+min2 a15 t2 min2 id x y
+write a15 min2.csv
+# max1 sample
+max1 a16 t2 max1 id x
+write a16 max1.csv
+# max2 sample
+max2 a17 t2 max2 id x y
+write a17 max2.csv

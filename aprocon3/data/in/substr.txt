@@ -1,0 +1,14 @@
+read master master.csv
+substr a1 master c0 birthday 0 0
+substr a2 a1 c1 birthday 0 7
+substr a3 a2 c2 birthday 7 7
+substr a4 a3 year birthday 0 3
+substr a5 a4 month birthday 4 5
+substr a6 a5 day birthday 6 7
+write master master.csv
+write a1 a1.csv
+write a2 a2.csv
+write a3 a3.csv
+write a4 a4.csv
+write a5 a5.csv
+write a6 a6.csv

@@ -1,0 +1,6 @@
+read master2 master2.csv
+min1 a1 master2 min1 firstname country
+min1 a2 master2 min2 middlename country
+write master2 master2.csv
+write a1 a1.csv
+write a2 a2.csv

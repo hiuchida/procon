@@ -1,0 +1,22 @@
+read master master.csv
+append_col a1 master c1 a
+append_col a2 a1 c2 bb
+append_col a3 a2 c3 ccc
+append_col a4 a3 c4 dddd
+append_col a5 a4 c5 eeeee
+append_col a6 a5 c6 ffffff
+append_col a7 a6 c7 ggggggg
+append_col a8 a7 c8 hhhhhhhh
+append_col a9 a8 c9 iiiiiiiii
+append_col a10 a9 c10 jjjjjjjjjj
+write master master.csv
+write a1 a1.csv
+write a2 a2.csv
+write a3 a3.csv
+write a4 a4.csv
+write a5 a5.csv
+write a6 a6.csv
+write a7 a7.csv
+write a8 a8.csv
+write a9 a9.csv
+write a10 a10.csv

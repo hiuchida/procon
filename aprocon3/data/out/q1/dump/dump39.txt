@@ -1,0 +1,9 @@
+name:a14
+maxCol:2
+maxRow:2
+flds[0]:min1
+flds[1]:x
+tbl[0][0]:1
+tbl[0][1]:0
+tbl[1][0]:2
+tbl[1][1]:1

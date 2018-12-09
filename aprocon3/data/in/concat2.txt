@@ -1,0 +1,14 @@
+read master2 master2.csv
+concat2 a1 master2 con1 id birthyear
+concat2 a2 a1 con2 birthyear id
+concat2 a3 a2 con3 id middlename
+concat2 a4 a3 con4 middlename id
+concat2 a5 a4 con5 middlename birthyear
+concat2 a6 a5 con6 birthyear middlename
+write master2 master2.csv
+write a1 a1.csv
+write a2 a2.csv
+write a3 a3.csv
+write a4 a4.csv
+write a5 a5.csv
+write a6 a6.csv

@@ -1,0 +1,11 @@
+name:m3
+maxCol:2
+maxRow:3
+flds[0]:max1
+flds[1]:month
+tbl[0][0]:31
+tbl[0][1]:01
+tbl[1][0]:28
+tbl[1][1]:02
+tbl[2][0]:31
+tbl[2][1]:03

@@ -1,0 +1,5 @@
+name:*+-./01115
+maxCol:1
+maxRow:1
+flds[0]:2
+tbl[0][0]:2

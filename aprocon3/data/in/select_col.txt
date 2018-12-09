@@ -1,0 +1,32 @@
+read master master.csv
+select_col a11 master id
+select_col a12 master name
+select_col a13 master birthday
+select_col a21 master id name
+select_col a22 master name id
+select_col a23 master id birthday
+select_col a24 master birthday id
+select_col a25 master name birthday
+select_col a26 master birthday name
+select_col a31 master id name birthday
+select_col a32 master id birthday name
+select_col a33 master name id birthday
+select_col a34 master name birthday id
+select_col a35 master birthday id name
+select_col a36 master birthday name id
+write master master.csv
+write a11 a11.csv
+write a12 a12.csv
+write a13 a13.csv
+write a21 a21.csv
+write a22 a22.csv
+write a23 a23.csv
+write a24 a24.csv
+write a25 a25.csv
+write a26 a26.csv
+write a31 a31.csv
+write a32 a32.csv
+write a33 a33.csv
+write a34 a34.csv
+write a35 a35.csv
+write a36 a36.csv

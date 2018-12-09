@@ -1,0 +1,5 @@
+name:xyz{|}~139
+maxCol:1
+maxRow:1
+flds[0]:J
+tbl[0][0]:J
